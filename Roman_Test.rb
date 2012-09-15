@@ -58,4 +58,7 @@ describe Roman do
 	it 'Convert 17 to roman' do
 		@Roman.convert(17).must_equal "XVII"
 	end
+	it 'Convert 18 to roman' do
+		@Roman.convert(18).must_equal "XVIII"
+	end
 end
