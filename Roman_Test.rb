@@ -34,4 +34,7 @@ describe Roman do
 	it 'Convert 9 to roman' do
 		@Roman.convert(9).must_equal "XI"
 	end
+	it 'Convert 10 to roman' do
+		@Roman.convert(10).must_equal "X"
+	end
 end
