@@ -5,11 +5,15 @@ class Roman
 		result = ""
 		
 		while number > 0
-			
-			if  0 < number  and number	< 4
-				result += "I"			
+			if  number == 4
+				result = "VI"	
+				number -= 4		
 			end
-			number -= 1
+			if  0 < number  and number	< 4
+				result += "I"	
+				number -= 1		
+			end
+			
 		end
 		return result
 
