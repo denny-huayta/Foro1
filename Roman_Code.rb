@@ -1,20 +1,16 @@
 class Roman
 
 	def convert(number)
+		
 		result = ""
 		
 		while number > 0
 			
-			if  1 < number < 3
-				
-				result = result + "I"
-			
+			if  0 < number 	
+				result += "I"			
 			end
-
-			number = number - 1
-
+			number -= 1
 		end
-
 		return result
 
 	end
