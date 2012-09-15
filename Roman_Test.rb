@@ -25,4 +25,7 @@ describe Roman do
 	it 'Convert 6 to roman' do
 		@Roman.convert(6).must_equal "VI"
 	end
+	it 'Convert 7 to roman' do
+		@Roman.convert(7).must_equal "VII"
+	end
 end
