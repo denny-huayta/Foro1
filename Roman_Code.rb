@@ -10,7 +10,7 @@ class Roman
 				number -= 5	
 			end
 			if  number == 4
-				result += "VI"	
+				result += "IV"	
 				number -= 4		
 			end
 			if  0 < number  and number	< 4
