@@ -5,6 +5,11 @@ class Roman
 		result = ""
 		
 		while number > 0
+			
+			if  number == 9
+				result += "XI"	
+				number -= 9		
+			end
 			if  4 < number  and number	< 9
 				result += "V"	
 				number -= 5	
