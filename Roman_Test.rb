@@ -40,4 +40,7 @@ describe Roman do
 	it 'Convert 11 to roman' do
 		@Roman.convert(11).must_equal "XI"
 	end
+	it 'Convert 12 to roman' do
+		@Roman.convert(12).must_equal "XII"
+	end
 end
