@@ -67,4 +67,7 @@ describe Roman do
 	it 'Convert 20 to roman' do
 		@Roman.convert(20).must_equal "XX"
 	end
+	it 'Convert 40 to roman' do
+		@Roman.convert(40).must_equal "No implemented yet"
+	end
 end

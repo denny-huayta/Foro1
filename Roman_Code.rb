@@ -5,7 +5,11 @@ class Roman
 		result = ""
 		
 		while number > 0
-			if  9 < number 
+			if number > 39
+				number = 0
+				result = "No implemented yet"
+			end
+			if  9 < number and number < 41
 				result += "X"	
 				number -= 10	
 			end
