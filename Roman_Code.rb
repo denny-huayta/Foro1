@@ -10,7 +10,7 @@ class Roman
 				number -= 10	
 			end
 			if  number == 9
-				result += "XI"	
+				result += "IX"	
 				number -= 9		
 			end
 			if  4 < number  and number	< 9

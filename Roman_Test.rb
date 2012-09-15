@@ -32,9 +32,12 @@ describe Roman do
 		@Roman.convert(8).must_equal "VIII"
 	end
 	it 'Convert 9 to roman' do
-		@Roman.convert(9).must_equal "XI"
+		@Roman.convert(9).must_equal "IX"
 	end
 	it 'Convert 10 to roman' do
 		@Roman.convert(10).must_equal "X"
+	end
+	it 'Convert 11 to roman' do
+		@Roman.convert(11).must_equal "XI"
 	end
 end
