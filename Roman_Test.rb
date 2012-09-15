@@ -11,4 +11,8 @@ describe Roman do
 		@Roman.convert(1).must_equal "I"
 	end
 	
+	it 'Convert 2 to roman' do
+		@Roman.convert(2).must_equal "II"
+	end
+
 end
