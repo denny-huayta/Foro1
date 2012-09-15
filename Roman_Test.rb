@@ -9,10 +9,12 @@ describe Roman do
 
 	it 'Convert 1 to roman' do
 		@Roman.convert(1).must_equal "I"
-	end
-	
+	end	
 	it 'Convert 2 to roman' do
 		@Roman.convert(2).must_equal "II"
+	end
+	it 'Convert 3 to roman' do
+		@Roman.convert(3).must_equal "III"
 	end
 
 end
